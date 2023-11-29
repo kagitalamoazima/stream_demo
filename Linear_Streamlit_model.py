@@ -10,7 +10,7 @@ st.header("Linear Rgression")
 
 st.sidebar.header("This is a webapp")
 
-experience = st.sidebar.slider("select the exp ",5,6,7,8,9,10)
+experience = st.sidebar.slider("select the exp", 5, 10, 7)
 education = st.sidebar.slider("select the education ",1,2,3,4)
 
 st.write("Test values are",experience," ",education)
